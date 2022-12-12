@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Lato-Regular";
+    src: url('../fonts/Lato-Regular.ttf')
+}
+
+.project-description {
+	width: calc(100% - 2em);
+	background-color: rgba(0, 0, 0, 0.7);
+	border-style: solid none solid none;
+	border-width: 0.07em;
+	border-color: rgb(255, 255, 255);
+	display: flex;
+	padding: 1em;
+	height: 13.688em;
+  }
+  
+.desc-media {
+	border-radius: 1em;
+	margin-right: 1em;
+	width: 20em;
+	height: 13.688em;
+	box-shadow: 0 0 0 0.07em rgb(255, 255, 255);
+	object-fit: cover;
+}
+  
+.desc-content{
+	width: 100%;
+}
+.desc-title {
+	font-size: 150%;
+}
+  
+.desc-link {
+	width: 4em;
+	height: 4em;
+	position: relative;
+	left: 90%;
+}
+  
+.desc-desc {
+	margin-bottom: 1em;
+}
+  
+.content {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	color: rgb(255, 255, 255);
+	font-size: 2.4vh;
+	font-family: 'Lato-Regular', sans-serif;
+}
+  
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	background-color: rgb(0, 0, 0);
+}
