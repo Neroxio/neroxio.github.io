@@ -50,7 +50,18 @@
 	font-size: 2.4vh;
 	font-family: 'Lato-Regular', sans-serif;
 }
-  
+
+.header{
+	font-size: 5vh;
+	text-align: center;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+.flavour-text{
+	font-size: 1.5vh;
+	text-align: center;
+}
 body {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
